@@ -16,7 +16,7 @@ hyprland hyprpaper hypridle hyprlock xdg-desktop-portal xdg-desktop-portal-hyprl
 only available via AUR:
 
 ```
-octopi grimblast-git
+octopi hyprshot
 ```
 
 you can optionally install papirus icon set, `papirus-folders` from aur to appy a purple color, and purple compact variant of the [Plata-Colors](https://www.gnome-look.org/p/1342612) theme.

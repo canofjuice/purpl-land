@@ -2,6 +2,9 @@
 
 tested only on arch
 
+>[!WARNING]
+>If you're planning to use my config, change the monitor settings!!!
+
 following packages need to be installed:
 
 `hyprland hyprpaper hypridle hyprlock xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk hyprpolkitagent waybar fuzzel kitty thunar qt6ct dunst copyq nwg-bar tuned-ppd ttf-roboto ttf-roboto-mono-nerd`

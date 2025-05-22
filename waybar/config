@@ -1,0 +1,78 @@
+{
+    "layer": "top",
+    "height": 24,
+    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-center": ["mpris"],
+    "modules-right": ["privacy", "tray", "power-profiles-daemon", "idle_inhibitor", "wireplumber", "clock"],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+	"format-icons": {
+	    "1": "󰨇",
+	    "2": "󰮂",
+	    "3": "",
+            "8": "󰨇",
+            "9": "",
+            "10": "󰙯"
+	},
+    },
+    "mpris": {
+        "format": " {artist} - {title}  {status_icon} ",
+	"status-icons": {
+		"playing": "",
+		"paused": ""
+	}
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+    "wireplumber": {
+        "format": "{icon}    {volume}%",
+        "format-muted": "",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-click-middle": "pavucontrol",
+        "format-icons": ["", "", ""],
+        "tooltip-format": "Playing from: {player}",
+        "tooltip": true,
+        "scroll-step": 3
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+            "default": "",
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        }
+    },
+    "privacy": {
+	"icon-spacing": 4,
+	"icon-size": 18,
+	"transition-duration": 250,
+	"modules": [
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 24
+		},
+		{
+			"type": "audio-in",
+			"tooltip": true,
+			"tooltip-icon-size": 24
+		}
+	]
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "󰒳",
+            "deactivated": "󰒲"
+        }
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%a, %d. %b %Y}"
+    },
+}

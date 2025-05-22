@@ -1,6 +1,6 @@
 # my hyprland dotfiles
 
-test only on arch
+tested only on arch
 
 following packages need to be installed:
 
@@ -11,3 +11,5 @@ only available via AUR:
 `octopi grimblast-git`
 
 you can optionally install papirus icon set, `papirus-folders` from aur to appy a purple color, and purple compact variant of the [Plata-Colors](https://www.gnome-look.org/p/1342612) theme.
+
+![](screenie.png)

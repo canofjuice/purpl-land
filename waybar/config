@@ -1,6 +1,6 @@
 {
     "layer": "top",
-    "height": 24,
+    "height": 32,
     "modules-left": ["hyprland/workspaces", "sway/mode"],
     "modules-center": ["mpris"],
     "modules-right": ["privacy", "tray", "power-profiles-daemon", "idle_inhibitor", "wireplumber", "clock"],
@@ -24,7 +24,7 @@
     },
     "tray": {
         "icon-size": 16,
-        "spacing": 10
+        "spacing": 8
     },
     "wireplumber": {
         "format": "{icon}    {volume}%",
